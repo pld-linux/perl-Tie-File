@@ -34,7 +34,7 @@ jest elementem 0. w tablicy, druga 1. i tak dalej.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
