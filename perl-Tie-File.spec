@@ -8,7 +8,7 @@ Summary:	Tie::File - Access the lines of a disk file via a Perl array
 Summary(pl):	Modu³ Tie::File - udostêpniaj±cy linie pliku na dysku jako perlow± tablicê
 Name:		perl-Tie-File
 Version:	0.93
-Release:	1
+Release:	2
 License:	GPL v2+/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
