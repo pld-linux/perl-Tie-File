@@ -32,7 +32,7 @@ jest elementem 0. w tablicy, druga 1. i tak dalej.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
