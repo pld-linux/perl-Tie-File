@@ -4,8 +4,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tie
 %define	pnam	File
-Summary:	Tie::File - Access the lines of a disk file via a Perl array
-Summary(pl):	Modu³ Tie::File - udostêpniaj±cy linie pliku na dysku jako perlow± tablicê
+Summary:	Tie::File - access the lines of a disk file via a Perl array
+Summary(pl):	Tie::File - udostêpnienie wierszy pliku na dysku jako tablicy perlowej
 Name:		perl-Tie-File
 Version:	0.96
 Release:	1
