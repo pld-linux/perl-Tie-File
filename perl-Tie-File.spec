@@ -28,7 +28,7 @@ so on.
 
 %description -l pl
 Tie::File reprezentuje zwyk³y plik tekstowy jako perlow± tablicê.
-Ka¿dy element tablicy odpowiada rekordowi z pliku. Piersza linia pliku
+Ka¿dy element tablicy odpowiada rekordowi z pliku. Pierwsza linia pliku
 jest elementem 0. w tablicy, druga 1. i tak dalej.
 
 %prep
