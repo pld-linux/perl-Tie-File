@@ -10,7 +10,8 @@ Summary(pl):	Tie::File - udostêpnienie wierszy pliku na dysku jako tablicy perlo
 Name:		perl-Tie-File
 Version:	0.96
 Release:	1
-License:	GPL v2+/Artistic
+# same as perl (but i.e. GPL v2+ or Artistic ???)
+License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1d7184e02a560afbc7a9eafffc80f44c
