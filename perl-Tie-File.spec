@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	File
 Summary:	Tie::File - access the lines of a disk file via a Perl array
-Summary(pl):	Tie::File - udostêpnienie wierszy pliku na dysku jako tablicy perlowej
+Summary(pl.UTF-8):   Tie::File - udostÄ™pnienie wierszy pliku na dysku jako tablicy perlowej
 Name:		perl-Tie-File
 Version:	0.96
 Release:	1
@@ -26,9 +26,9 @@ in the array corresponds to a record in the file. The first line of
 the file is element 0 of the array; the second line is element 1, and
 so on.
 
-%description -l pl
-Tie::File reprezentuje zwyk³y plik tekstowy jako perlow± tablicê.
-Ka¿dy element tablicy odpowiada rekordowi z pliku. Pierwsza linia pliku
+%description -l pl.UTF-8
+Tie::File reprezentuje zwykÅ‚y plik tekstowy jako perlowÄ… tablicÄ™.
+KaÅ¼dy element tablicy odpowiada rekordowi z pliku. Pierwsza linia pliku
 jest elementem 0. w tablicy, druga 1. i tak dalej.
 
 %prep
