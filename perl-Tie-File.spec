@@ -6,7 +6,7 @@
 %define		pdir	Tie
 %define		pnam	File
 Summary:	Tie::File - access the lines of a disk file via a Perl array
-Summary(pl.UTF-8):   Tie::File - udostępnienie wierszy pliku na dysku jako tablicy perlowej
+Summary(pl.UTF-8):	Tie::File - udostępnienie wierszy pliku na dysku jako tablicy perlowej
 Name:		perl-Tie-File
 Version:	0.96
 Release:	1
