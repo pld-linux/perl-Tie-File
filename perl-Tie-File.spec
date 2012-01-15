@@ -8,13 +8,13 @@
 Summary:	Tie::File - access the lines of a disk file via a Perl array
 Summary(pl.UTF-8):	Tie::File - udostępnienie wierszy pliku na dysku jako tablicy perlowej
 Name:		perl-Tie-File
-Version:	0.96
-Release:	2
+Version:	0.98
+Release:	1
 # same as perl (but i.e. GPL v2+ or Artistic ???)
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1d7184e02a560afbc7a9eafffc80f44c
+# Source0-md5:	33c6c213ba45452f2aeb0e85c6473ecf
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
