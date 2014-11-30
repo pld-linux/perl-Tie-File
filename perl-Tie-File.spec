@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Tie
 %define		pnam	File
+%include	/usr/lib/rpm/macros.perl
 Summary:	Tie::File - access the lines of a disk file via a Perl array
 Summary(pl.UTF-8):	Tie::File - udostępnienie wierszy pliku na dysku jako tablicy perlowej
 Name:		perl-Tie-File
@@ -15,6 +15,7 @@ License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	33c6c213ba45452f2aeb0e85c6473ecf
+URL:		http://search.cpan.org/dist/Tie-File/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -28,8 +29,8 @@ so on.
 
 %description -l pl.UTF-8
 Tie::File reprezentuje zwykły plik tekstowy jako perlową tablicę.
-Każdy element tablicy odpowiada rekordowi z pliku. Pierwsza linia pliku
-jest elementem 0. w tablicy, druga 1. i tak dalej.
+Każdy element tablicy odpowiada rekordowi z pliku. Pierwsza linia
+pliku jest elementem 0. w tablicy, druga 1. i tak dalej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
